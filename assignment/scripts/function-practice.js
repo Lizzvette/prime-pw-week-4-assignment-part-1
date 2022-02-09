@@ -1,5 +1,7 @@
 console.log('***** Function Practice *****')
 
+TESTING GIT 
+
 // Add the required code to complete the functions below
 // After _each_ function, use a console log to call the function
 // to test it and display the result
