@@ -1,7 +1,5 @@
 console.log('***** Function Practice *****')
-
-TESTING GIT 
-
+//
 // Add the required code to complete the functions below
 // After _each_ function, use a console log to call the function
 // to test it and display the result
@@ -17,31 +15,42 @@ console.log('Test - should say "Hello World!"', hello());
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName( name ) {
-  return;
+  return 'Hello, Sonny!';
 }
 // Remember to call the function to test
+console.log('#2 should: say "Hello, Sonny!"', helloName(name)); 
+  
+/*OR 
 
+function helloName( name ){
+  console.log( name );
+}  
+helloName('Hello, Sonny!');*/
 
 // 3. Function to add two numbers together & return the result
-function addNumbers( firstNumber ) {
-  // return firstNumber + secondNumber;
+function addNumbers( firstNumber, secondNumber ) {
+  let result = firstNumber + secondNumber;
+  return result;
 }
-
+console.log(addNumbers(5,6));
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
-
+function multiplyThree(numA, numB, numC ){
+let result = numA * numB * numC;
+return  result;
 }
-
+console.log(multiplyThree(2,3,4));
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
 function isPositive( number ) {
   if ( number > 0 ){
-    return;
-  }
-    return;
+    return true;
+  } else {
+    return false;
+  } 
 }
+
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
 console.log( 'isPositive - should say true', isPositive(3) );
@@ -51,16 +60,31 @@ console.log( 'isPositive - should say false', isPositive(-3) );
 
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
-function getLast( array ) {
-
+const arrayArt = ['blown-glass', 'acrylic painting', 'sculpture'];
+function getLast( arrayArt ) {      // arrayArt is the parameter
+  return arrayArt[arrayArt.length-1];
 }
+console.log( 'getLast - should return: ', getLast( arrayArt));// outside function is the argument
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 function find( value, array ){
-  
+
 }
+
+//practice: 
+let item = '';
+arrayArt.forEach(find);
+
+function find (value, array){
+  
+  return
+}
+
+
+
+//           GIT COMMIT NOW   -     PUSH     !!!!!!!!!
 
 // ----------------------
 // Stretch Goals
