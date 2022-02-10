@@ -69,24 +69,34 @@ console.log( 'getLast - should return: ', getLast( arrayArt));// outside functio
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
+
+// Just having fun and added in a simple function:)
+function getSomething (value){
+  return value * 2;
+}
+const anyThing = getSomething(5);
+console.log(anyThing);
+
+/*let array = [5,2,7,10,58];
+
 function find( value, array ){
-
+for (    of      ){
+  if (value     <= array){
+    return true;
+  }
+  return false;
 }
-
-//practice: 
-let item = '';
-arrayArt.forEach(find);
-
-function find (value, array){
-  
-  return
 }
 
 
+let array1 = 
+find (  ,     ) //the argument, variable declared*/
 
-//           GIT COMMIT NOW   -     PUSH     !!!!!!!!!
+// ------------
 
-// ----------------------
+
+
+
 // Stretch Goals
 // ----------------------
 // 8. Function to check if a letter is the first letter in a 
