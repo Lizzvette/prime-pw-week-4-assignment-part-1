@@ -71,29 +71,25 @@ console.log( 'getLast - should return: ', getLast( arrayArt));// outside functio
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 
 // Just having fun and added in a simple function:)
-function getSomething (value){
+/*function getSomething (value){
   return value * 2;
 }
 const anyThing = getSomething(5);
-console.log(anyThing);
+console.log(anyThing); */
 
-/*let array = [5,2,7,10,58];
+let array = [5,2,7,10,58];
 
 function find( value, array ){
-for (    of      ){
-  if (value     <= array){
+for (let i = 0; i < array.length; i++)  {
+  if (value === array){
     return true;
   }
   return false;
 }
 }
-
-
-let array1 = 
-find (  ,     ) //the argument, variable declared*/
-
-// ------------
-
+console.log(array);
+console.log(find);
+console.log(find(5, [2,7,10,58]));
 
 
 
